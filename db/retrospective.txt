@@ -1,0 +1,30 @@
+Sprint 1 Retrospective
+
+What Went Well
+--------------
+- Successfully set up project environment
+- Created SQLite database schema
+- Loaded all core and supplementary datasets
+- Implemented ETL pipeline
+- Developed data validation framework
+- Completed manual data quality review
+- All automated tests passed
+
+Challenges
+----------
+- Excel files contained extra header rows
+- SQLite datatype mismatch issues
+- Foreign key validation challenges
+- Source dataset inconsistencies
+
+Lessons Learned
+---------------
+- Always profile data before loading
+- Data validation is critical for quality
+- Database schema should be finalized early
+- Testing helps catch issues quickly
+
+Overall Result
+--------------
+Sprint 1 completed successfully.
+Database and ETL pipeline are ready for analytics and reporting.

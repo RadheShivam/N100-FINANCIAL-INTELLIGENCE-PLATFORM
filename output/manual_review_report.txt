@@ -1,0 +1,93 @@
+NIFTY100 PROJECT
+MANUAL DATA QUALITY REVIEW REPORT
+
+Review Date: 18-06-2026
+
+==================================================
+1. RANDOM COMPANY REVIEW
+==================================================
+
+Reviewed Companies:
+
+1. DMART
+2. ADANIPORTS
+3. TATACONSUM
+4. ASIANPAINT
+5. SIEMENS
+
+Result:
+Company IDs and names loaded correctly.
+Database queries executed successfully.
+
+==================================================
+2. YEAR COVERAGE REVIEW
+==================================================
+
+Minimum Years Available:
+JIOFIN -> 3 Years
+
+Maximum Years Available:
+13 Years
+
+Observation:
+Most companies contain 13 years of financial history.
+Recently listed companies have lower coverage.
+
+==================================================
+3. COMPANIES WITH LESS THAN 5 YEARS DATA
+==================================================
+
+JIOFIN -> 3 Years
+
+Observation:
+Limited history is expected because the company is newly listed.
+
+==================================================
+4. RECORD COUNT VERIFICATION
+==================================================
+
+companies: 92
+profitandloss: 1276
+balancesheet: 1312
+cashflow: 1187
+financial_ratios: 1184
+market_cap: 552
+peer_groups: 56
+sectors: 92
+stock_prices: 5520
+
+Observation:
+All expected records are present.
+No data loss detected.
+
+==================================================
+5. VALIDATION FAILURE REVIEW
+==================================================
+
+Total Failures: 1
+
+Issue:
+profitandloss -> DQ-02 -> Non-positive sales
+
+Company:
+ADANIENSOL
+
+Observation:
+Source dataset contains a sales value of 0.
+
+==================================================
+6. OVERALL ASSESSMENT
+==================================================
+
+Database Integrity: PASS
+
+Data Quality Status: ACCEPTABLE
+
+Ready For:
+- Analytics
+- SQL Reporting
+- Dashboard Development
+- Power BI Integration
+
+Overall Result:
+Dataset approved for downstream analysis.
